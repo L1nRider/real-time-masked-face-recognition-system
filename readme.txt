@@ -1,24 +1,15 @@
-Description:
-train.ipynb under the same directory contains most result during training process
+train.ipynb under the same directory contains most results during training process
 
-./pyfiles/create_dataset.py         can create dataset of your own face
-./pyfiles/train.py                        contains the design and training of the CNN
-./pyfiles/recognition.py              takes in webcam video stream and do recognition
+./pyfiles/create_dataset.py         can create dataset of faces of your own and faces of others
+./pyfiles/train.py                  designing and training the CNN
+./pyfiles/recognition.py            takes in webcam video stream and do recognition
+./data                              where datasets are stored
 
-./data where datasets are stored
-
-******************************************************************************************
 
 How to run my code:
+
 1.Download the dataset as instructed in ./data/readme.txt
-2.run ./pyfiles/recognition.py
-
-******************************************************************************************
-
-If you want to create dataset of your face and retrain the model:
-1.Download the dataset as instructed in ./data/readme.txt
-2.run ./pyfiles/create_dataset.py
-3.run ./pyfiles/train.py
-4.run ./pyfiles/recognition.py
-
-
+2.Check your webcam, make sure it works
+3.Run ./pyfiles/create_dataset.py to create dataset of your own face
+4.Run ./pyfiles/train.py to retrain the model
+3.Run ./pyfiles/recognition.py to do recognition
