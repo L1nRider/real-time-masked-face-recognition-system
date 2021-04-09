@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, TensorDataset
 from torch.utils.tensorboard import SummaryWriter
 
 
-classes = {0: 'Yangwei',
+classes = {0: 'me',
            1: 'Others'}
 
 

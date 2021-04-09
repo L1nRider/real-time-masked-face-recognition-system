@@ -88,7 +88,7 @@ while True:
 
         if face_recognize(img_face) == 0:
             cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), thickness=2)
-            cv2.putText(img, 'Yangwei', (x, y), cv2.FONT_HERSHEY_COMPLEX, 0.5, (255, 255, 255), 1)
+            cv2.putText(img, 'Me', (x, y), cv2.FONT_HERSHEY_COMPLEX, 0.5, (255, 255, 255), 1)
         else:
             cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), thickness=2)
             cv2.putText(img, 'Others', (x, y), cv2.FONT_HERSHEY_COMPLEX, 0.5, (255, 255, 255), 1)
