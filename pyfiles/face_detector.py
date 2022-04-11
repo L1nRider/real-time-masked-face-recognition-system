@@ -2,8 +2,9 @@ import cv2
 import numpy as np
 
 # These two directories need to be in absolute format
-path_model = "C:/Users/Guo/Documents/JupyterNotebook/face_recognition/common/deploy.prototxt.txt"
-path_weight = "C:/Users/Guo/Documents/JupyterNotebook/face_recognition/common/res10_300x300_ssd_iter_140000.caffemodel"
+# you can find these two files under ../common
+path_model = "../common/deploy.prototxt.txt"
+path_weight = "../common/res10_300x300_ssd_iter_140000.caffemodel"
 
 
 # detect face in the input image
